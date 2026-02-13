@@ -6,6 +6,5 @@ url: "https://jaklusmeyer.github.io"
 baseurl: ""
 
 header_pages:
-  - about.md
   - projects.md
   - publications.md
