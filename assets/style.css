@@ -1,0 +1,42 @@
+.hero {
+  background-image: url("/assets/images/kittpeak.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0 2rem 0;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin: 0.6rem 0 0 0;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
