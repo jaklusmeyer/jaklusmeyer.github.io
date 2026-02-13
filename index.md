@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: ""
 permalink: /
 ---
 
@@ -12,19 +12,5 @@ permalink: /
 </div>
 
 ## Research focus
-
 - Precision radial-velocity instrumentation (APO-SONG)
 - Meteor fragmentation and flare statistics (CAMO / GMN)
-
-## Current work
-
-**APO-SONG (Apache Point Observatory)**  
-Instrument commissioning, iodine wavelength calibration, and RV performance validation.
-
-**Meteor fragmentation studies**  
-Anomaly detection in meteor light curves.
-
-## Contact
-
-- GitHub: https://github.com/jaklusmeyer  
-- Email: jaklus@nmsu.edu
