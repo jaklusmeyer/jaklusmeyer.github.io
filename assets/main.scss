@@ -3,18 +3,57 @@
 
 @import "{{ site.theme }}";
 
-/* Simple soft background */
+/* ===== Background + Typography ===== */
+
 body {
   background-color: #eef2f7;
 }
 
-/* Center content more nicely */
 .page-content {
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* Slightly darker headers */
 h1, h2, h3 {
   color: #1a2a44;
+}
+
+/* ===== Banner / Hero Section ===== */
+
+.hero {
+  background-image: url("/assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
 }
