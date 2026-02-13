@@ -1,23 +1,11 @@
-title: "Jessica K
-description: "PhD candidate in Astronomy at New Mexico State University — Instrumentation, Radial Velocities, Meteor Fragmentation"
+title: "Jessica "
+description: "PhD candidate in Astronomy — Faint Meteor Flares, Astronomical Instrumentation, Radial Velocity."
 theme: minima
+
+url: "https://jaklusmeyer.github.io"
+baseurl: ""
 
 header_pages:
   - about.md
   - projects.md
   - publications.md
-
-@import "minima";
-
-.page-content {
-  font-size: 18px;
-  line-height: 1.7;
-}
-
-.site-title, .site-title:visited {
-  font-weight: 600;
-}
-
-h1, h2, h3 {
-  letter-spacing: -0.02em;
-}
