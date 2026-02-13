@@ -6,7 +6,22 @@ permalink: /
 
 ## Jessica Klusmeyer
 
-PhD candidate in Astronomy at NMSU.
+Ph.D. candidate in Astronomy at New Mexico State University.
 
-- Instrumentation and RV spectroscopy (APO-SONG)
-- Meteor fragmentation and flare statistics
+My research focuses on:
+
+- Precision radial-velocity instrumentation (APO-SONG)
+- Meteor fragmentation and flare statistics (CAMO / GMN)
+
+### Current Work
+
+**APO-SONG (Apache Point Observatory)**  
+Instrument commissioning, iodine wavelength calibration, and RV performance validation.
+
+**Meteor Fragmentation Studies**  
+Anomaly detection in meteor light curves.  A
+
+### Contact
+
+- GitHub: https://github.com/jaklusmeyer
+- Email: jaklus@nmsu.edu
