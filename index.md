@@ -4,9 +4,14 @@ title: Home
 permalink: /
 ---
 
-## Jessica Klusmeyer
+<div class="hero">
+  <div class="hero-text">
+    <h1>Jessica Klusmeyer</h1>
+    <p>Ph.D. candidate in Astronomy · New Mexico State University</p>
+  </div>
+</div>
 
-Ph.D. candidate in Astronomy at New Mexico State University.
+<div class="home-content">
 
 My research focuses on:
 
@@ -19,9 +24,11 @@ My research focuses on:
 Instrument commissioning, iodine wavelength calibration, and RV performance validation.
 
 **Meteor Fragmentation Studies**  
-Anomaly detection in meteor light curves.  A
+Anomaly detection in meteor light curves.
 
 ### Contact
 
 - GitHub: https://github.com/jaklusmeyer
 - Email: jaklus@nmsu.edu
+
+</div>
