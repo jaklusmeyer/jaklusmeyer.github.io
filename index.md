@@ -6,17 +6,7 @@ permalink: /
 
 ## Jessica Klusmeyer
 
-Ph.D. candidate in Astronomy at New Mexico State University. 
+PhD candidate in Astronomy at NMSU.
 
-
-### Research areas
-
-
-### Current projects
-- **SONG New Mexico (APO) commissioning**:
-- **Meteor flare analysis**:
-
-### Links
-- **GitHub**: https://github.com/jaklusmeyer  
-- **Email**: your_email_here  
-- **CV**: #add a PDF in the repo and link it here (example: `/assets/CV.pdf`)
+- Instrumentation and RV spectroscopy (APO-SONG)
+- Meteor fragmentation and flare statistics
