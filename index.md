@@ -19,4 +19,4 @@ Ph.D. candidate in Astronomy at New Mexico State University.
 ### Links
 - **GitHub**: https://github.com/jaklusmeyer  
 - **Email**: your_email_here  
-- **CV**: add a PDF in the repo and link it here (example: `/assets/CV.pdf`)
+- **CV**: #add a PDF in the repo and link it here (example: `/assets/CV.pdf`)
