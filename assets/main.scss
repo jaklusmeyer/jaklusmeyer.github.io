@@ -1,0 +1,17 @@
+@import "minima";
+
+/* Simple soft background */
+body {
+background-color: #eef2f7;
+}
+
+/* Center content more nicely */
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Slightly darker headers */
+h1, h2, h3 {
+  color: #1a2a44;
+}
