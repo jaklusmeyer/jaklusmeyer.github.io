@@ -1,3 +1,8 @@
 title: "Jessica K
 description: "PhD candidate in Astronomy at New Mexico State University — Instrumentation, Radial Velocities, Meteor Fragmentation"
 theme: minima
+
+header_pages:
+  - about.md
+  - projects.md
+  - publications.md
