@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /* ============================= */
-/* Hero Banner */
+/* FULL WIDTH HERO BANNER */
 /* ============================= */
 
 .hero {
@@ -12,17 +12,17 @@
   background-size: cover;
   background-position: center;
 
-  min-height: 500px;
-  padding: 4rem 1.5rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+
+  min-height: 520px;
+  padding: 5rem 1.5rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   position: relative;
-  border-radius: 14px;
-  overflow: hidden;
-  margin: 2rem 0 3rem 0;
 }
 
 .hero::after {
@@ -37,61 +37,28 @@
   z-index: 1;
   text-align: center;
   color: #ffffff;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero-text h1 {
   margin: 0;
-  font-size: 3.4rem;
+  font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
 }
 
 .hero-text p {
   margin-top: 1rem;
-  font-size: 1.25rem;
-  opacity: 0.95;
+  font-size: 1.3rem;
 }
 
 .hero-buttons {
   margin-top: 2rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .hero-btn {
-  display: inline-block;
-  padding: 0.75rem 1.4rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  background: rgba(0, 0, 0, 0.25);
-  transition: all 0.2s ease;
-}
-
-.hero-btn:hover {
-  background: rgba(0, 0, 0, 0.55);
-  transform: translateY(-2px);
-}
-
-/* ============================= */
-/* Page Content Tweaks */
-/* ============================= */
-
-.page-content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-h2, h3 {
-  margin-top: 2rem;
-}
-
-body {
-  background-color: #f6f7f9;
-}
+  tex
