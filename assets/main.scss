@@ -4,7 +4,11 @@
 @import "{{ site.theme }}";
 
 /* ============================= */
+<<<<<<< HEAD
 /* FULL WIDTH HERO BANNER */
+=======
+/* FULL-WIDTH HERO (edge-to-edge) */
+>>>>>>> 1b48f30 (Fix main.scss and make hero full width)
 /* ============================= */
 
 .hero {
@@ -61,4 +65,29 @@
 .hero-btn {
   padding: 0.8rem 1.6rem;
   border-radius: 999px;
+<<<<<<< HEAD
   tex
+=======
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.25);
+  transition: 0.2s ease;
+}
+
+.hero-btn:hover {
+  background: rgba(0, 0, 0, 0.55);
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* Page content stays centered */
+/* ============================= */
+
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+>>>>>>> 1b48f30 (Fix main.scss and make hero full width)
