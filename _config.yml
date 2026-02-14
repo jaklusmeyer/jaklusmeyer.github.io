@@ -1,13 +1,11 @@
 title: Jessica Klusmeyer
 description: Ph.D. candidate in Astronomy · New Mexico State University
+theme: minima
 
-theme: jekyll-theme-cayman
-
-url: "https://jaklusmeyer.github.io"
-baseurl: ""
-
-
+# Top navigation
 header_pages:
-  - about.md
   - projects.md
   - publications.md
+
+# Optional: cleaner URLs
+permalink: pretty

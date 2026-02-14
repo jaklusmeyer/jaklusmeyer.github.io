@@ -12,5 +12,6 @@ permalink: /
 </div>
 
 ## Research focus
+
 - Precision radial-velocity instrumentation (APO-SONG)
 - Meteor fragmentation and flare statistics (CAMO / GMN)
