@@ -25,7 +25,6 @@
   margin: 2rem 0 3rem 0;
 }
 
-/* Dark overlay for readability */
 .hero::after {
   content: "";
   position: absolute;
@@ -33,7 +32,6 @@
   background: rgba(0, 0, 0, 0.40);
 }
 
-/* Text container */
 .hero-text {
   position: relative;
   z-index: 1;
@@ -42,7 +40,6 @@
   max-width: 800px;
 }
 
-/* Name */
 .hero-text h1 {
   margin: 0;
   font-size: 3.4rem;
@@ -50,16 +47,11 @@
   letter-spacing: 0.5px;
 }
 
-/* Subtitle */
 .hero-text p {
   margin-top: 1rem;
   font-size: 1.25rem;
   opacity: 0.95;
 }
-
-/* ============================= */
-/* Hero Buttons */
-/* ============================= */
 
 .hero-buttons {
   margin-top: 2rem;
@@ -69,4 +61,37 @@
   flex-wrap: wrap;
 }
 
-.hero-bt
+.hero-btn {
+  display: inline-block;
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+}
+
+.hero-btn:hover {
+  background: rgba(0, 0, 0, 0.55);
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* Page Content Tweaks */
+/* ============================= */
+
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h2, h3 {
+  margin-top: 2rem;
+}
+
+body {
+  background-color: #f6f7f9;
+}
