@@ -3,71 +3,70 @@
 
 @import "{{ site.theme }}";
 
+/* ============================= */
+/* Hero Banner */
+/* ============================= */
+
 .hero {
   background-image: url("/assets/images/kittpeak.jpeg");
   background-size: cover;
   background-position: center;
-  height: 380px;
+
+  min-height: 500px;
+  padding: 4rem 1.5rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   position: relative;
-  border-radius: 10px;
+  border-radius: 14px;
   overflow: hidden;
-  margin: 1rem 0 2rem 0;
+  margin: 2rem 0 3rem 0;
 }
 
+/* Dark overlay for readability */
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.40);
 }
 
+/* Text container */
 .hero-text {
   position: relative;
   z-index: 1;
   text-align: center;
-  color: #fff;
-  padding: 0 1rem;
+  color: #ffffff;
+  max-width: 800px;
 }
 
+/* Name */
 .hero-text h1 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
+/* Subtitle */
 .hero-text p {
-  margin: 0.6rem 0 0 0;
-  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
   opacity: 0.95;
 }
 
+/* ============================= */
+/* Hero Buttons */
+/* ============================= */
+
 .hero-buttons {
-  margin-top: 1.2rem;
+  margin-top: 2rem;
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.hero-btn {
-  display: inline-block;
-  padding: 0.65rem 1.1rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.75);
-  background: rgba(0,0,0,0.25);
-  transition: background 0.15s ease, transform 0.15s ease;
-}
-
-.hero-btn:hover {
-  background: rgba(0,0,0,0.40);
-  transform: translateY(-1px);
-}
-
+.hero-bt
